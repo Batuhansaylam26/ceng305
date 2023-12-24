@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CengStore
+comment1.params=
+comment1.target=CengStore()
+comment2.params=t
+comment2.target=void\ addTV(TV)
+comment3.params=p
+comment3.target=void\ addPC(PC)
+comment4.params=s
+comment4.target=void\ addSmartPhone(SmartPhone)
+comment5.params=barcode
+comment5.target=void\ removeTV(java.lang.String)
+comment6.params=barcode
+comment6.target=void\ removePC(java.lang.String)
+comment7.params=barcode
+comment7.target=void\ removeSmartPhone(java.lang.String)
+comment8.params=
+comment8.target=void\ printAllProducts()
+numComments=9

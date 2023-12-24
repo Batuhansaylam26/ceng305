@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="CengStoreTester" enable="true" strideversion="1">
+    <javadoc xml:space="preserve">Write a description of class CengStoreTester here.
+@author (your name) @version (a version number or a date)</javadoc>
+    <imports/>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="CengStore" type-java="CengStore" name="store" value="new CengStore()" value-java=" new CengStore()" enable="true"/>
+                <variable type="TV" type-java="TV" name="t" value="new TV(&quot;111111222222&quot;)" value-java=" new TV(&quot;111111222222&quot;)" enable="true"/>
+                <call expression="t.setBrand()" expression-java="t.setBrand()" enable="true"/>
+                <call expression="t.setManufactureYear()" expression-java="t.setManufactureYear()" enable="true"/>
+                <call expression="t.setPrice()" expression-java="t.setPrice()" enable="true"/>
+                <call expression="t.setYearOfGuarantee()" expression-java="t.setYearOfGuarantee()" enable="true"/>
+                <call expression="t.setType()" expression-java="t.setType()" enable="true"/>
+                <call expression="t.setResolution()" expression-java="t.setResolution()" enable="true"/>
+                <call expression="t.setDisplaySize()" expression-java="t.setDisplaySize()" enable="true"/>
+                <call expression="store.addTV(t)" expression-java="store.addTV(t)" enable="true"/>
+                <variable type="PC" type-java="PC" name="p" value="new PC(&quot;111111222222&quot;)" value-java=" new PC(&quot;111111222222&quot;)" enable="true"/>
+                <call expression="p.setBrand()" expression-java="p.setBrand()" enable="true"/>
+                <call expression="p.setManufactureYear()" expression-java="p.setManufactureYear()" enable="true"/>
+                <call expression="p.setPrice()" expression-java="p.setPrice()" enable="true"/>
+                <call expression="p.setYearOfGuarantee()" expression-java="p.setYearOfGuarantee()" enable="true"/>
+                <call expression="p.setMonitorSize()" expression-java="p.setMonitorSize()" enable="true"/>
+                <call expression="p.setCpuSpeed()" expression-java="p.setCpuSpeed()" enable="true"/>
+                <call expression="p.setRamCap()" expression-java="p.setRamCap()" enable="true"/>
+                <call expression="p.setHddCap()" expression-java="p.setHddCap()" enable="true"/>
+                <call expression="p.setVgaCap()" expression-java="p.setVgaCap()" enable="true"/>
+                <call expression="p.setOpSys()" expression-java="p.setOpSys()" enable="true"/>
+                <call expression="store.addPC(p)" expression-java="store.addPC(p)" enable="true"/>
+                <variable type="SmartPhone" type-java="SmartPhone" name="s" value="new SmartPhone()" value-java=" new SmartPhone()" enable="true"/>
+                <call expression="s.setBarcode()" expression-java="s.setBarcode()" enable="true"/>
+                <call expression="s.setBrand()" expression-java="s.setBrand()" enable="true"/>
+                <call expression="s.setManufactureYear()" expression-java="s.setManufactureYear()" enable="true"/>
+                <call expression="s.setPrice()" expression-java="s.setPrice()" enable="true"/>
+                <call expression="s.setYearOfGuarantee()" expression-java="s.setYearOfGuarantee()" enable="true"/>
+                <call expression="s.setDisplaySize()" expression-java="s.setDisplaySize()" enable="true"/>
+                <call expression="s.setCpuSpeed()" expression-java="s.setCpuSpeed()" enable="true"/>
+                <call expression="s.setRamCap()" expression-java="s.setRamCap()" enable="true"/>
+                <call expression="s.setIntStorageCap()" expression-java="s.setIntStorageCap()" enable="true"/>
+                <call expression="s.setOpSys()" expression-java="s.setOpSys()" enable="true"/>
+                <call expression="store.addSmartPhone(s)" expression-java="store.addSmartPhone(s)" enable="true"/>
+                <call expression="CengStore.printAllProducts()" expression-java="CengStore.printAllProducts()" enable="true"/>
+                <call expression="t.getDisplaySize()" expression-java="t.getDisplaySize()" enable="true"/>
+                <call expression="p.getBrand()" expression-java="p.getBrand()" enable="true"/>
+                <call expression="s.getBarcode()" expression-java="s.getBarcode()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods/>
+</class>
